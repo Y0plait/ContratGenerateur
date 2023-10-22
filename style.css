@@ -1,0 +1,52 @@
+/*
+ * Author: Anton M.
+ * Creation Date: 21/10/2023
+ * Description: This file contains the CSS code for the CONTRAT_V2 project.
+ */
+
+/*************** General ***************/
+:root {
+  --navbar-color: #28a8f1;
+  --navbar-text-color: #ffffff;
+  --document-text-color: #000000;
+  --document-background-color: #ffffff;
+}
+
+.articleBody {
+  background-color: var(--document-background-color);
+  color: var(--document-text-color);
+}
+
+nav {
+  background-color: var(--navbar-color);
+  color: var(--navbar-text-color);
+}
+
+body {
+  color: var(--document-text-color);
+  background-color: var(--document-background-color);
+}
+
+footer {
+    position: static;
+    bottom: 0; 
+    width: 100%;
+  }
+
+  .show-footer {
+    display: block;
+  }
+
+#footerTextDiv {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#upBtnDiv {
+    position: relative;
+}
+
+#upBtn {
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px;
+}
