@@ -8,6 +8,6 @@ Objectif :
 - Mise en application des technos vues en cours.
 
 Technologies utilisés: 
-- Bootstrap pour l'UI (addon CSS)
+- Bootstrap pour l'UI (front-end framework CSS)
 - PHP pour la gestion côté serveur et les sessions
 - JS pour le theming et les éléments interactifs.

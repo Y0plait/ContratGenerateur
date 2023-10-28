@@ -8,7 +8,7 @@
 
     <div class="text-center p-3 text-light" id="footerTextDiv">
       Made with 🩷, Bootstrap and time by Y0plait. The source code is available here :
-      <a href="https://github.com/y0plait/" class="btn btn-primary">GitHub repo</a>
+      <a href="https://github.com/Y0plait/ContratGenerateur" class="btn btn-primary">GitHub repo</a>
     </div>
   </footer>
 
