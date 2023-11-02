@@ -25,20 +25,20 @@ nav {
 body {
   color: var(--document-text-color);
   background-color: var(--document-background-color);
+  min-height: 100vh;
+  /* Pour que le footer apparaisse en bas*/
 }
 
-footer {
-    position: static;
-    bottom: 0; 
-    width: 100%;
-  }
 
-  .show-footer {
+.show-footer {
     display: block;
   }
 
 #footerTextDiv {
     background-color: rgba(0, 0, 0, 0.2);
+    position: sticky;
+    bottom: 0; 
+    width: 100%;
 }
 
 #upBtnDiv {
