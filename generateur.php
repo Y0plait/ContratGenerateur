@@ -165,7 +165,7 @@ SOFTWARE.
 
             <!--En-tête & Préambule-->
             <div class="accordion-item">
-                <h2 class="subtitle-light accordion-header">
+                <h2 class="subtitle-light accordion-header" id="notToPrint">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#panelArticle-collapseHead" aria-expanded="true"
                         aria-controls="panelArticle-collapseHead">
@@ -556,6 +556,7 @@ SOFTWARE.
 
             <br />
             <button type="submit" class="btn btn-primary mb-3">Générer le contrat</button>
+            <button onclick="window.print(); return false;" class="btn btn-primary mb-3">Générer le contrat</button>
         </form>
     </div>
 

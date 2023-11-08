@@ -1,5 +1,7 @@
 # Generateur de contrat commercial
 
+[Accéder au site](https://test.y0plait.xyz/Contrat/)
+
 Projet de développement pour le semestre 1.
 Objectif :
 - Initiation à la programmation
